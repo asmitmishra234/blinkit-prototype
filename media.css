@@ -1,0 +1,435 @@
+@media only screen and (min-width:200px) and (max-width:599px){
+    header{
+        flex-direction: column;
+        align-items: stretch;
+        padding: 10px;
+    }
+    .headerleft{
+        justify-content: center;
+    }
+    .logo{
+        padding: 10px;
+    }
+    .address{
+        padding: 10px;
+    }
+    .address p{
+        font-size: 8px;
+    }
+    .address h3{
+        font-size: 15px;
+    }
+    .headerbtn{
+        background-color: white;
+        position: fixed;
+        width: 100%;
+        z-index: 9;
+        bottom: 0;
+        justify-content: center;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .view1{
+        display: none;
+    }
+    .mobileview1{
+        width: 100%;
+        margin-top: 25px;
+        overflow: hidden;
+        display: block;
+    }
+    .mobileview1 img{
+        background-color: rgb(218, 231, 237);
+        border-radius: 15px;
+    }
+    .mobilebanner{
+        width: 98%;
+        padding-right: 1%;
+        padding-left: 1%;
+        display: flex;
+    }
+      
+    .topimage{
+        display: flex;
+        justify-content: center;
+        margin-top: 5%;
+    }
+    .topimage img{
+        width: 70%;
+        height: 70%;
+        padding: 0px 20px;
+    }
+    .text{
+        text-align: center;
+        font-weight: 500;
+        font-size: 14px;
+        opacity: 0.8;
+    }
+    .middleimage{
+        display: grid;
+        grid-template-columns: 20% 1fr 20%;
+        gap: 10px;
+        text-align: center;
+        padding: 5px;
+        font-weight: 500;
+    }
+    .mtext{
+        font-size: 14px;
+        opacity: 0.8;
+    }
+    .mtext img{
+        height: 100px;  
+        width: 100%;
+        object-fit: contain;
+        border-radius: 10px;
+    }
+    .bottomimage{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(4,1fr);
+        gap: 17px;
+        padding: 8px;
+        text-align: center;
+    }
+    .btext img{
+       width: 80%;
+       object-fit: cover;
+       padding: 5px 15px;
+    }
+    .btext{
+        font-weight: 500;
+        font-size: 14px;
+        opacity: 0.8;
+    }
+
+      .mobileview1{
+                display: block;       
+    }
+    .items{
+        font-size: 17px;
+        margin-left: 20px;
+        padding-top: 10px;
+    }
+     .view2{
+        display: none;
+    }
+    .mobileview2{
+        width: 100%;
+        height: 100%;
+        margin-top: 25px;
+        overflow: hidden;
+        display: block;
+    }
+    .mobileproduct{
+    
+        display: flex;
+        gap: 6px;
+        
+    }
+    .mobileproduct img{
+    
+        width: 100px;
+      height: 60px;
+       margin-left: 8px;
+
+        border-radius: 10px;
+
+    }
+    .item h3{
+        
+        font-size: 30px;
+    }
+    .store{
+        text-align: center;
+        
+    
+    }
+        .top{
+            display: flex;
+            gap: 290px;
+            margin: 30px;
+
+        }
+        .top h5{
+            text-decoration-color: chartreuse;
+        }
+    .deals{
+        display: flex;
+         gap: 5px;
+        
+     
+        font-family: 'Courier New', Courier, monospace;
+        
+    }
+    
+
+    .im2 img{
+        border-radius: 10px;
+        min-width: max-content;
+        height: 180px;
+        border: 0.5px solid grey;
+  
+
+    }
+     .top2{
+            display: flex;
+           justify-content: space-between;
+            margin: 10px;
+
+        }
+        .top2 p{
+            font-size: large;
+            text-decoration-color: chartreuse;
+        }
+        .india{
+        height: 90px;
+        width: 100%;
+        background-color: grey;
+        }
+        .view3{
+            display: none;
+        }
+            .mobileview3{
+        width: 100%;
+        height: 100%;
+        margin-top: 25px;
+        overflow: hidden;
+        display: block;
+    }
+    .india{
+        width: 100%;
+        height: 250px;
+        background-color: whitesmoke;
+    }
+    .india h1{
+        opacity: 0.6;
+        width: 500px;
+        font-size: 80px;
+        text-align: center;
+    }
+    .blin{
+        padding-left: 60px;
+        padding-top: 120px;
+        margin: 5px;
+         width: 100%;
+        height: 250px;
+        background-color: whitesmoke;
+    }
+    .blin h1{
+        opacity: 0.6;
+    }
+    .indias{
+        height: 50px;
+        width: 100%;
+          background-color: whitesmoke;
+        
+    }
+
+}
+
+@media only screen and (min-width: 600px) and (max-width:990px){
+    header{
+        flex-direction: column;
+        align-items: stretch;
+        padding: 10px;
+    }
+    .headerleft{
+        justify-content: center;
+    }
+     .headerbtn{
+        background-color: white;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        z-index: 5;
+        justify-content: center;
+        margin-right: 0;
+        margin-left: 0;
+    }   
+    .view1{
+        display: none;
+    }
+    .mobileview1{
+        width: 100%;
+        margin-top: 25px;
+        overflow: hidden;
+        display: block;
+    }
+    .mobileview1 img{
+        background-color: rgb(218, 231, 237);
+        border-radius: 15px;
+    }
+    .mobilebanner{
+       display: none;
+    }
+    .topimage{
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .topimage img{
+        width: 70%;
+        height: 70%;
+        padding: 0px 20px;
+    }
+    .text{
+        text-align: center;
+        font-weight: 500;
+        font-size: 14px;
+        opacity: 0.8;
+    }
+    .middleimage{
+        display: grid;
+        grid-template-columns: 20% 1fr 20%;
+        gap: 10px;
+        text-align: center;
+        padding: 5px;
+        font-weight: 500;
+    }
+    .mtext{
+        font-size: 14px;
+        opacity: 0.8;
+    }
+    .mtext img{
+        height: 100px;  
+        width: 100%;
+        object-fit: contain;
+        border-radius: 10px;
+    }
+    .bottomimage{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(4,1fr);
+        padding: 5px;
+        text-align: center;
+    }
+    .btext img{
+       width: 50%;
+       object-fit: cover;
+       padding: 5px 15px;
+    }
+    .btext{
+        padding: 5px 15px;
+        width: 80%;
+        font-weight: 500;
+        font-size: 14px;
+        opacity: 0.8;
+
+    }
+    .items{
+        font-size: 15px;
+        padding-left: 30px;
+    }
+      .view2{
+        display: none;
+    }
+    .mobileview2{
+        width: 100%;
+        margin-top: 25px;
+        overflow: hidden;
+        display: block;
+    }
+      .dairyproducts{
+       display: none;
+    }
+        .mobileproduct{
+    
+        display: flex;
+        gap: 6px;
+        
+    }
+    .mobileproduct img{
+    
+        width: 100px;
+      height: 60px;
+       margin-left: 8px;
+
+        border-radius: 10px;
+
+    }
+    .item h3{
+        
+        font-size: 30px;
+    }
+    .store{
+        text-align: center;
+        
+    
+    }
+        .top{
+            display: flex;
+            gap: 290px;
+            margin: 30px;
+
+        }
+        .top h5{
+            text-decoration-color: chartreuse;
+        }
+    .deals{
+        display: flex;
+         gap: 5px;
+        
+     
+        font-family: 'Courier New', Courier, monospace;
+        
+    }
+    
+
+    .im2 img{
+        border-radius: 10px;
+        min-width: max-content;
+        height: 180px;
+        border: 0.5px solid grey;
+  
+
+    }
+     .top2{
+            display: flex;
+           justify-content: space-between;
+            margin: 10px;
+
+        }
+        .top2 p{
+            font-size: large;
+            text-decoration-color: chartreuse;
+        }
+         .view3{
+            display: none;
+        }
+            .mobileview3{
+        width: 100%;
+        height: 100%;
+        margin-top: 25px;
+        overflow: hidden;
+        display: block;
+    }
+     .india{
+        width: 100%;
+        height: 250px;
+        background-color: whitesmoke;
+    }
+    .india h1{
+        width: 500px;
+        font-size: 80px;
+        text-align: center;
+        opacity: 0.6;
+    }
+    .blin{
+        padding-left: 60px;
+        padding-top: 120px;
+        margin: 5px;
+         width: 100%;
+        height: 250px;
+        background-color: whitesmoke;
+    }
+    .blin h1{
+       opacity: 0.6; 
+       
+    }
+    .indias{
+        z-index: 6;
+        height: 50px;
+        width: 100%;
+          background-color: whitesmoke;
+    }
+}
